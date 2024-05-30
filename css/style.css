@@ -91,7 +91,7 @@ body {
     height: .2rem;
     background: var(--white-color);
 }
-
+p
 .header.sticky .navbar a::before {
     background: var(--main-color);
     opacity: .7;
@@ -379,6 +379,10 @@ span {
 }
 
 .services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+.services-box li {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }

@@ -3,68 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <title>Colegio Maria Auxiliadora</title>
-  <link rel="stylesheet" href="./css/styles2.css">
-  
+     <!-- swiper css -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+     <!-- box icons -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ 
+     <!-- custom css -->
+     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+  <header class="header">
+    <a href="./index.html" class="logo">C.M.A. ||   Resistencia</a>
+
+    <nav class="navbar">
+        <a href="./index.html" class="active">Inicio</a>
+        <!-- <a href="#about" class="active">Sobre Nosotros</a>
+        <a href="#services" class="active">Niveles</a> -->
+        <!-- <a href="#portfolio" class="active">Portfolio</a> -->
+        <!-- <a href="#phrases-container" class="active">Institucional</a>
+        <a href="#contact" class="active">Contacto</a> -->
+    </nav>
+
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+</header>
+<div class="phrases-container" id="phrases-container">
+  <h2 class="heading">Nivel Incial<br><span></span></h2>
 
 
-<!-- partial:index.partial.html -->
-<main class="main flow">
-  <h1 class="main__heading">Perfil del Alumno/a<br> Nivel Inicial</h1>
-  <div class="main__cards cards">
-    <div class="cards__inner">
-      <!-- <div class="cards__card card">
-        <h2 class="card__heading">Basic</h2>
-        <p class="card__price">$9.99</p>
-        <ul role="list" class="card__bullets flow">
-          <li>Access to standard workouts and nutrition plans</li>
-          <li>Email support</li>
-        </ul>
-        <a href="#basic" class="card__cta cta">Get Started</a>
-      </div>
+  <section class="services" id="services">
+    <h2 class="heading"> <span>Queremos Formar<br></span>una persona que </h2>
 
-      <div class="cards__card card">
-        <h2 class="card__heading">Pro</h2>
-        <p class="card__price">$19.99</p>
-        <ul role="list" class="card__bullets flow">
-          <li>Access to advanced workouts and nutrition plans</li>
-          <li>Priority Email support</li>
-          <li>Exclusive access to live Q&A sessions</li>
-        </ul>
-        <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
-      </div> -->
+    <div class="services-container">
+      <div class="services-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#4a90e2" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+              <path d="M14 16C13.4271 16.6318 12.7395 17 12 17C11.2605 17 10.5729 16.6318 10 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M9 11.5C8.71357 11.1841 8.36974 11 8 11C7.63026 11 7.28643 11.1841 7 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M17 11.5C16.7136 11.1841 16.3697 11 16 11C15.6303 11 15.2864 11.1841 15 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8C12.7684 8 13.4692 7.71115 14 7.23611" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+          <h3>Nivel Inicial</h3>
+          <p>QUEREMOS FORMAR UNA PERSONA:
+              <li>Que ame y se sienta amado para crecer en la sensibilidad, solidaridad, generosidad y fraternidad con los otros.</li><li>Capaz de reconocer sus capacidades y limitaciones, tolerando sus frustraciones y aceptando así el error como una oportunidad de aprendizaje.</li>
+              <li>	Que aprende tempranamente a investigar, innovar, a ser crítico y activo en la construcción de su aprendizaje.</li>
+              <li>	Que pueda descubrir y desarrollar sus múltiples inteligencias, apropiándose de nuevos lenguajes y entrar en dialogo a partir de los mismos.</li>
+              <li>Que construya de manera progresiva su identidad, personal, cristiana, comunitaria y social.</li>
+              <li>Capaz de potenciar su capacidad creativa, para sentirse co-creador y responsable de su ambiente.
+              </li>
+              <li>	Capaz de salir de su individualidad y poder encontrarse con el otro.</li>
+              <li>	Capaz de trabajar en grupo de manera colaborativa.</li>
+              <li>Capaz de asumir responsabilidades en orden a su propio crecimiento y a los de la comunidad y grupos en los que participa.</li>
+              <li>Sensible a "lo diferente" y solidario con su entorno.</li>
+              <li>Que se compromete con el cuidado y conservación del ambiente.</li>
+              <li>Flexible a los cambios, capaz de adaptarse a los mismos conservando los valores internalizados.</li>
+              <li>Que siente la presencia de María, en la vida personal y comunitaria.</li>
 
-      <div class="cards__card card">
-        <h2 class="card__heading">QUEREMOS FORMAR UNA PERSONA</h2>
-        <!-- <p class="card__price">$29.99</p> -->
-        <ul role="list" class="card__bullets flow">
-          <li>Capaz de reconocer sus capacidades y limitaciones, tolerando sus frustraciones y aceptando así el error como una oportunidad de aprendizaje.</li>
-          <li>	Que aprende tempranamente a investigar, innovar, a ser crítico y activo en la construcción de su aprendizaje.</li>
-          <li>	Que pueda descubrir y desarrollar sus múltiples inteligencias, apropiándose de nuevos lenguajes y entrar en dialogo a partir de los mismos.</li>
-          <li>Que construya de manera progresiva su identidad, personal, cristiana, comunitaria y social.</li>
-          <li>Capaz de potenciar su capacidad creativa, para sentirse co-creador y responsable de su ambiente.
-          </li>
-          <li>	Capaz de salir de su individualidad y poder encontrarse con el otro.</li>
-          <li>	Capaz de trabajar en grupo de manera colaborativa.</li>
-          <li>Capaz de asumir responsabilidades en orden a su propio crecimiento y a los de la comunidad y grupos en los que participa.</li>
-          <li>Sensible a "lo diferente" y solidario con su entorno.</li>
-          <li>Que se compromete con el cuidado y conservación del ambiente.</li>
-          <li>Flexible a los cambios, capaz de adaptarse a los mismos conservando los valores internalizados.</li>
-          <li>Que siente la presencia de María, en la vida personal y comunitaria.</li>
 
-        </ul>
-        <a href="./index.html" class="card__cta cta">Ir a Inicio</a>
-      </div>
-    </div>
-    
-    <div class="overlay cards__inner"></div>
-  </div>
-</main>
-<!-- partial -->
-  <script  src="./script.js"></script>
-  <script  src="./script2.js"></script>
 
-</body>
+
+
+   <!-- scroll reveal -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!-- swiper js -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <script src="js/script.js"></script>
+   <script src="js/darkmode.js"></script>
 </html>
