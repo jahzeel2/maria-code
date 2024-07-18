@@ -540,6 +540,54 @@ span {
     background: var(--main-color);
 }
 
+.share-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.share-button {
+    background-color: #25a1e0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.share-button:hover {
+    background-color: #1d87b4;
+}
+
+.share-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.share-menu .share-option {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.share-menu .share-option:hover {
+    background-color: #f1f1f1;
+}
+
+.share-menu .share-option:active {
+    background-color: #ddd;
+}
+
 
 .contact {
     min-height: auto;
